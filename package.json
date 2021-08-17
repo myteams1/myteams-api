@@ -1,0 +1,54 @@
+{
+  "name": "myteams-api",
+  "version": "3.0.0",
+  "description": "An MyTeams Module to use discord.js and Twitch API easily",
+  "main": "Dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/commands/index.ts"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "typescript",
+    "helper",
+    "myteams",
+    "twitch",
+    "node-twitch",
+    "streams",
+    "stream"
+  ],
+  "author": "UnknownVazguz & zDanx",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jsdom": "^16.2.13",
+    "axios": "^0.21.1",
+    "bluebird": "^3.5.1",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "colors": "^1.4.0",
+    "commander": "^8.1.0",
+    "date-fns": "^2.23.0",
+    "discord.js": "^13.1.0",
+    "eslint": "^7.32.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
+    "jsdom": "^17.0.0",
+    "knex": "^0.21.21",
+    "mongoose": "^5.13.7",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "ts-node": "^10.2.0",
+    "typedoc": "^0.21.5",
+    "typescript": "^4.3.5",
+    "util": "^0.12.4",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.2"
+  }
+}
